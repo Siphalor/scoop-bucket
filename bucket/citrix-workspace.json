@@ -1,0 +1,25 @@
+{
+    "version": "20",
+    "homepage": "https://docs.citrix.com/en-us/citrix-workspace-app.html",
+    "url": "https://downloads.citrix.com/19131/CitrixWorkspaceApp.exe?__gda__=1613935370_75a99f4d55e8aea15f2e85aae873daa0",
+    "hash": "49a19bbb688912feaa5fa0300f808bf92230522bd5991b20b1fc7589d1bceb8c",
+    "installer": {
+        "args": "/silent /noreboot /AutoUpdateCheck=disabled INSTALLDIR=$dir",
+        "keep": true
+    },
+    "uninstaller": {
+        "args": "/silent /uninstall /noreboot INSTALLDIR $dir"
+    },
+    "autoupdate": {
+        "url": "https:$matchUrl",
+        "hash": {
+            "url": "https://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest.html",
+            "regex": "CitrixWorkspaceApp\\.exe\\?(?:.|\\n)*?SHA-256 - $sha256"
+        }
+    },
+    "checkver": {
+        "url": "https://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest.html",
+        "regex": "rel=\"(?<url>\\/\\/[\\w\\d\\/.]+CitrixWorkspaceApp\\.exe\\?__gda__=[\\d\\w_]+)\"(?:.|\\n)*Version: ([\\d.]+)"
+    },
+    "license": "Proprietary"
+}
