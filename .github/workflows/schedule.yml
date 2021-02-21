@@ -10,4 +10,7 @@ jobs:
       - uses: actions/checkout@main
       - name: Excavate
         uses: Ash258/Scoop-GithubActions@stable
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_UPDATED: '1'
 
