@@ -1,0 +1,20 @@
+{
+    "version": "0.1.4",
+    "homepage": "https://github.com/ExtraCrafTX/GeneratorFabricMod",
+    "description": "Prompts the user for various information and outputs a skeleton mod for the Fabric toolchain.",
+    "bin": "bin\\GeneratorFabricMod.bat",
+    "suggest": {
+        "JRE": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "url": "https://github.com/ExtraCrafTX/GeneratorFabricMod/releases/download/0.1.4/GeneratorFabricMod.zip",
+    "hash": "0b170ee6500baba5dec94418e77688b2dac6587f6ccc0330a5bbccfddb1009fd",
+    "extract_dir": "GeneratorFabricMod",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ExtraCrafTX/GeneratorFabricMod/releases/download/$version/GeneratorFabricMod.zip"
+    },
+    "license": "Apache-2.0"
+}
