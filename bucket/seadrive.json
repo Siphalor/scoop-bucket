@@ -1,0 +1,18 @@
+{
+    "version": "2.0.12",
+    "homepage": "https://www.seafile.com",
+    "description": "Exposes Seafile servers as Windows network drives.",
+	"shortcuts": [
+		[ "Pfiles/SeaDrive/bin/seadrive-gui.exe", "SeaDrive" ]
+	],
+    "checkver": {
+        "url": "https://www.seafile.com/en/download/",
+        "regex": "(?<url>https:\\/\\/[^\"]*seadrive-(?<version>\\d+\\.\\d+\\.\\d+)-en\\.msi)"
+    },
+    "url": "https://s3.eu-central-1.amazonaws.com/download.seadrive.org/seadrive-2.0.12-en.msi",
+    "hash": "7f6d680854ea9ddfe9eb8682d4b695986d6c4a8cfbb51ad0ff6823fd6a81405b",
+    "autoupdate": {
+        "url": "$matchUrl"
+    },
+    "license": "Proprietary"
+}
