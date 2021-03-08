@@ -1,0 +1,18 @@
+{
+    "version": "3.2.1",
+    "homepage": "https://github.com/automuteus/amonguscapture",
+    "description": "Capture of the local Among Us executable state",
+    "shortcuts": [
+        [
+            "AmongUsCapture.exe",
+            "Among Us Capture"
+        ]
+    ],
+    "url": "https://github.com/automuteus/amonguscapture/releases/download/3.2.1/AmongUsCapture.zip",
+    "hash": "f07ed99124228ac2a70ff747bd4932cf496c1c3514b31bb417e440267b5ddca3",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/automuteus/amonguscapture/releases/download/$version/AmongUsCapture.zip"
+    },
+    "license": "MIT"
+}
