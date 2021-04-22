@@ -1,5 +1,5 @@
 {
-    "version": "4.0.0",
+    "version": "4.0.2",
     "homepage": "https://github.com/automuteus/amonguscapture",
     "description": "Capture of the local Among Us executable state",
     "shortcuts": [
@@ -8,8 +8,8 @@
             "Among Us Capture"
         ]
     ],
-    "url": "https://github.com/automuteus/amonguscapture/releases/download/4.0.0/AmongUsCapture.zip",
-    "hash": "c6765fe5c2b90405012d24812ca480683621c6a16fad5899ac182252b36d31c9",
+    "url": "https://github.com/automuteus/amonguscapture/releases/download/4.0.2/AmongUsCapture.zip",
+    "hash": "5ee3237e48b0a994664b400f50d478835f87d7ec9b62a1a1656438275cb4323d",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/automuteus/amonguscapture/releases/download/$version/AmongUsCapture.zip"
