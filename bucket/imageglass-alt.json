@@ -1,0 +1,39 @@
+{
+    "version": "8.2.6.6",
+    "homepage": "https://imageglass.org",
+    "description": "A lightweight, versatile image viewer",
+    "shortcuts": [
+        [
+            "ImageGlass.exe",
+            "ImageGlass"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/d2phap/ImageGlass"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/d2phap/ImageGlass/releases/download/8.2.6.6/ImageGlass_8.2.6.6_x64.zip",
+            "hash": "662561b0ea567bb5ba309a5defc0af5eae71f0993d304c7e1f5c3df2ce393d1f",
+            "extract_dir": "ImageGlass_8.2.6.6_x64"
+        },
+        "32bit": {
+            "url": "https://github.com/d2phap/ImageGlass/releases/download/8.2.6.6/ImageGlass_8.2.6.6_x86.zip",
+            "hash": "ddd3604b03e1d482a8edabfbb611915fb50febbb94fcf61f693597982df5a724",
+            "extract_dir": "ImageGlass_8.2.6.6_x86"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_x64.zip",
+                "extract_dir": "ImageGlass_$version_x64"
+            },
+            "32bit": {
+                "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_x86.zip",
+                "extract_dir": "ImageGlass_$version_x86"
+            }
+        }
+    },
+    "license": "GPL-3.0-only"
+}
