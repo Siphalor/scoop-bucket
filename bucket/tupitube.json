@@ -1,0 +1,15 @@
+{
+    "version": "0.2.17",
+    "homepage": "https://tupitube.com/index.php?r=dashboard%2Fdashboard",
+    "description": "A desktop application to create and share 2D animations, focused on kids and teenagers. Its user interface has been designed looking for providing a high level experience of usability.",
+    "url": "https://tupitube.com//installers/tupitube_desk_0.2.17.msi",
+    "hash": "5f7ce2b5412f0a3791d37b0c25318d1a9d01217a1417f0f88cbd7cd77f3f5265",
+    "checkver": {
+        "url": "https://tupitube.com/pages/download-v3-windows.php",
+        "regex": "href=\"(?<url>[^\"]+(?<version>\\d+\\.\\d+\\.\\d+)\\.msi)\""
+    },
+    "autoupdate": {
+        "url": "https://tupitube.com/$matchUrl"
+    },
+    "license": "GPL-2.0-only"
+}
