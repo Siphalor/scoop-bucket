@@ -1,5 +1,5 @@
 {
-    "version": "8.1.5.2",
+    "version": "8.2.8.7",
     "homepage": "https://imageglass.org/moon",
     "description": "A lightweight, versatile image viewer",
     "shortcuts": [
@@ -14,9 +14,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://imageglass.org/upload/moon/ImageGlass_Moon_8.1.5.2_x64.zip",
-            "hash": "2c36ff30fe103d489207686598307eaf34843009b17beec6fb0824c94a88c194",
-            "extract_dir": "ImageGlass_Moon_8.1.5.2_x64"
+            "url": "https://imageglass.org/upload/moon/ImageGlass_Moon_8.2.8.7_x64.zip",
+            "hash": "1bc4553553198c16c54069d8f3562d9f78ed9ee2a6d53d21699626feba12ca49",
+            "extract_dir": "ImageGlass_Moon_8.2.8.7_x64"
         }
     },
     "autoupdate": {
