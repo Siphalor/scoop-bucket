@@ -1,5 +1,5 @@
 {
-    "version": "8.2.6.6",
+    "version": "8.3.11.21",
     "homepage": "https://imageglass.org",
     "description": "A lightweight, versatile image viewer",
     "shortcuts": [
@@ -13,14 +13,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/d2phap/ImageGlass/releases/download/8.2.6.6/ImageGlass_8.2.6.6_x64.zip",
-            "hash": "662561b0ea567bb5ba309a5defc0af5eae71f0993d304c7e1f5c3df2ce393d1f",
-            "extract_dir": "ImageGlass_8.2.6.6_x64"
+            "url": "https://github.com/d2phap/ImageGlass/releases/download/8.3.11.21/ImageGlass_8.3.11.21_x64.zip",
+            "hash": "ad9d713f4ab9aa5a58fcbdd28b58bcf1d0981759f1f7565d8257715218819c2f",
+            "extract_dir": "ImageGlass_8.3.11.21_x64"
         },
         "32bit": {
-            "url": "https://github.com/d2phap/ImageGlass/releases/download/8.2.6.6/ImageGlass_8.2.6.6_x86.zip",
-            "hash": "ddd3604b03e1d482a8edabfbb611915fb50febbb94fcf61f693597982df5a724",
-            "extract_dir": "ImageGlass_8.2.6.6_x86"
+            "url": "https://github.com/d2phap/ImageGlass/releases/download/8.3.11.21/ImageGlass_8.3.11.21_x86.zip",
+            "hash": "dcdd1c8c881b0d1b21c68245b8fdbb4bded61a36aa44451039dc0f340ed022d8",
+            "extract_dir": "ImageGlass_8.3.11.21_x86"
         }
     },
     "autoupdate": {
