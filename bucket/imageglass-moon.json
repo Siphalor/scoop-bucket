@@ -10,7 +10,7 @@
     ],
     "checkver": {
         "url": "https://imageglass.org/moon",
-        "regex": "(?<url>https:[^\"]+upload\\/moon\\/(?<file>[^\"]+_(?<version>\\d\\.\\d\\.\\d\\.\\d)_x64)\\.zip)"
+        "regex": "href=\"(?<url>[^\"]+ImageGlass_Moon_(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)_x64\\.zip)"
     },
     "architecture": {
         "64bit": {
