@@ -26,11 +26,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_x64.zip",
+                "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_Kobe_$version_x64.zip",
                 "extract_dir": "ImageGlass_$version_x64"
             },
             "32bit": {
-                "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_x86.zip",
+                "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_Kobe_$version_x86.zip",
                 "extract_dir": "ImageGlass_$version_x86"
             }
         }
