@@ -14,7 +14,7 @@
     "extract_dir": "GeneratorFabricMod",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/ExtraCrafTX/GeneratorFabricMod/releases/download/$version/GeneratorFabricMod.zip"
+        "url": "https://github.com/ExtraCrafTX/GeneratorFabricMod/releases/download/v$version/GeneratorFabricMod.zip"
     },
     "license": "Apache-2.0"
 }
