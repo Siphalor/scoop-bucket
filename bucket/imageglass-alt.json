@@ -15,23 +15,23 @@
         "64bit": {
             "url": "https://github.com/d2phap/ImageGlass/releases/download/8.6.7.13/ImageGlass_Kobe_8.6.7.13_x64.zip",
             "hash": "579cf156e6f0b36bc671079c76a6ae7173bec6d3cfbc1c0a09855b29a663030e",
-            "extract_dir": "ImageGlass_8.6.7.13_x64"
+            "extract_dir": "ImageGlass_Kobe_8.6.7.13_x64"
         },
         "32bit": {
             "url": "https://github.com/d2phap/ImageGlass/releases/download/8.6.7.13/ImageGlass_Kobe_8.6.7.13_x86.zip",
             "hash": "560e496a5cb91135e6b08e8c13bdcfe83c715970afe5d13a34d716fe0a47a449",
-            "extract_dir": "ImageGlass_8.6.7.13_x86"
+            "extract_dir": "ImageGlass_Kobe_8.6.7.13_x86"
         }
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_Kobe_$version_x64.zip",
-                "extract_dir": "ImageGlass_$version_x64"
+                "extract_dir": "ImageGlass_Kobe_$version_x64"
             },
             "32bit": {
                 "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_Kobe_$version_x86.zip",
-                "extract_dir": "ImageGlass_$version_x86"
+                "extract_dir": "ImageGlass_Kobe_$version_x86"
             }
         }
     },
