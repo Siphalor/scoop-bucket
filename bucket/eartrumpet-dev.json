@@ -1,5 +1,5 @@
 {
-    "version": "2.2.0.2",
+    "version": "2.2.0.3",
     "homepage": "https://eartrumpet.app/",
     "description": "Better Volume Control for Windows ",
     "installer": {
@@ -8,8 +8,8 @@
     "uninstaller": {
         "script": "Get-AppxPackage 40459File-New-Project.EarTrumpet | Remove-AppxPackage"
     },
-    "url": "https://install.eartrumpet.app/dev/EarTrumpet.Package_2.2.0.2_x86.appxbundle#/eartrumpet.appxbundle",
-    "hash": "c9d5a602c0ad817d616af7c965674aa12ea71d638549c69d9d27fc0b4aade1b2",
+    "url": "https://install.eartrumpet.app/dev/EarTrumpet.Package_2.2.0.3_x86.appxbundle#/eartrumpet.appxbundle",
+    "hash": "ad89c3b093677cddf76221438ac6ae6bf30fc51f644361e0d99a1d126f9e0cd5",
     "checkver": {
         "url": "https://install.eartrumpet.app/dev/EarTrumpet.Package.appinstaller",
         "regex": "Version=\"([^\"]+)\""
