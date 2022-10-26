@@ -1,5 +1,5 @@
 {
-    "version": "8.6.7.13",
+    "version": "8.7.10.26",
     "homepage": "https://imageglass.org",
     "description": "A lightweight, versatile image viewer",
     "shortcuts": [
@@ -13,14 +13,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/d2phap/ImageGlass/releases/download/8.6.7.13/ImageGlass_Kobe_8.6.7.13_x64.zip",
-            "hash": "579cf156e6f0b36bc671079c76a6ae7173bec6d3cfbc1c0a09855b29a663030e",
-            "extract_dir": "ImageGlass_Kobe_8.6.7.13_x64"
+            "url": "https://github.com/d2phap/ImageGlass/releases/download/8.7.10.26/ImageGlass_Kobe_8.7.10.26_x64.zip",
+            "hash": "7029395d8d4523e4f6a1b53f8cea1cf1e3ad353a541d2ed8dfcd7ccab115ab7d",
+            "extract_dir": "ImageGlass_Kobe_8.7.10.26_x64"
         },
         "32bit": {
-            "url": "https://github.com/d2phap/ImageGlass/releases/download/8.6.7.13/ImageGlass_Kobe_8.6.7.13_x86.zip",
-            "hash": "560e496a5cb91135e6b08e8c13bdcfe83c715970afe5d13a34d716fe0a47a449",
-            "extract_dir": "ImageGlass_Kobe_8.6.7.13_x86"
+            "url": "https://github.com/d2phap/ImageGlass/releases/download/8.7.10.26/ImageGlass_Kobe_8.7.10.26_x86.zip",
+            "hash": "bd7238057fa35325127171b7b0088c4513e04ce5b729805d5c9ad3ac9ad88f1a",
+            "extract_dir": "ImageGlass_Kobe_8.7.10.26_x86"
         }
     },
     "autoupdate": {
