@@ -1,5 +1,5 @@
 {
-    "version": "8.0.8",
+    "version": "8.0.9",
     "homepage": "https://www.seafile.com",
     "description": "Client for syncing Seafile libraries to the client. [beta]",
     "shortcuts": [
@@ -12,8 +12,8 @@
         "url": "https://www.seafile.com/en/download/",
         "regex": "(?<url>https:\\/\\/[^\"]*seafile-[^\"]*\\.msi)\\\"[^>]*>(?<version>\\d+\\.\\d+\\.\\d+)(?: beta)?<\\/a><br\\/>\\s*<a href=\"https:\\/\\/manual\\.seafile\\.com\\/changelog\\/client-changelog\\/\""
     },
-    "url": "https://s3.eu-central-1.amazonaws.com/download.seadrive.org/seafile-8.0.8-en.msi",
-    "hash": "0a50d048094d109c6835dea8567d598ce00297dce9c0e3ea77eb529c376c5c30",
+    "url": "https://s3.eu-central-1.amazonaws.com/download.seadrive.org/seafile-8.0.9-en.msi",
+    "hash": "ba17339cfa3f10b44709829d438914925994da576d07aa19fb074dd32df46da0",
     "autoupdate": {
         "url": "$matchUrl"
     },
